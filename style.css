@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: white;
+}
+
+nav {
+    color: rgb(66, 61, 61);
+    padding: 10px 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    color: rgb(66, 61, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.startbtn{
+    width:100px;
+    color:white ;
+    border-radius: 5px;
+    background-color: rgb(9, 139, 96);
+}
+
+.main{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.main h1{
+    font-size: 350%;
+    color: rgb(4, 28, 80);
+}
+
+.main p{
+    font-size: x-large;
+    color: darkgrey;
+    margin-top: 10px;
+}
+
+.curriculumbtn{
+    width:180px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 12px 24px;
+    
+}
+
+.work {
+    text-align: center;
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+.work h2{
+    font-size: 200%;
+    color: rgb(14, 11, 83);
+}
+
+.work p{
+    font-size: 130%;
+    margin-top: 10px;
+    color: rgb(105, 105, 105);
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.feature {
+  max-width: 300px;
+}
+
+.feature img {
+    margin-top: 10px;
+}
+
+.feature h3 {
+  font-size: 150%;
+  margin-bottom: 10px;
+  color: #6c6b79; 
+}
+
+.feature p {
+  font-size: 110%;
+  color: #333;
+}
+
+.info{
+    text-align: center;
+
+}
+
+.language-grid{
+  background-color: #f5f5f9;
+
+}
+
+
+.language-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px; 
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.language-item a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.language-item img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #f3f3f3;
+  padding: 10px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+.language-item h4 {
+  font-size: 100%;
+  line-height: 1.4;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.expcurriculumbtn{
+   margin-left: 45%;
+   margin-top: 12px;
+   width: 150px;
+   border-radius: 5px;
+   height: 40px;
+   font-size: medium;
+   background-color: white;
+  }
+   
+.successstories{
+  background-color: #fffdfd;
+  
+}
+  .stories h5{
+    margin-left: 43%;
+    align-items: center;
+    font-size: 200%;
+    margin-top: 50px;
+  }
+  .stories a{
+    align-items: center;
+    margin-top: 100px;
+    font-size: 120%;
+  }
+
+   .stories2 a{
+    align-items: center;
+    margin-top: 100px;
+    font-size: 120%;
+  }
+
+  .more a{
+    margin-left: 43%;
+    text-decoration: underline;
+  }
+
+
+.support h6{
+  margin-left: 45%;
+  font-size: 200%;
+  margin-top: 70px;
+}
+
+.support p{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.supportbtn{
+  align-items: center;
+  margin-left: 37%;
+  margin-top: 20px;
+  margin-right: 37%;
+}
+
+.learnmore{
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  width: 120px;
+  height: 45px;
+}
+
+.donate{
+  background-color:  rgb(6, 88, 61);
+  border-radius: 5px;
+  width: 120px;
+  height: 45px;
+  color: #f3f3f3;
+}
+
+.about {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.about top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.logo {
+  max-width: 300px;
+}
+
+.logo img{
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.links {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-left: 30%;
+  gap: 80px;
+}
+
+.info {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info li {
+  margin-bottom: 6px;
+}
+
+.info a {
+  text-decoration: none;
+  color: #555;
+}
+
+.info a:hover {
+  color: #000;
+}
+
+.copyright{
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.socialmedia a img {
+  width: 24px;
+  margin-left: 10px;
+}
